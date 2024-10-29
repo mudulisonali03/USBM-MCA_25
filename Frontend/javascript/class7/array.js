@@ -49,6 +49,62 @@ let newcity="kkt";
 cities.unshift(newcity);
 console.log(cities);
 
+//Array concat:
+let furits=["apple","mango"];
+let addArray=furits.concat(["straberry","banana-fruit"]);
+console.log(addArray);
+
+//include()
+let students=["sonali","ankita","koko","anshita"];
+let newStudent=students.includes("soumya");
+console.log(newStudent);
+
+//slice()
+let arr=["soa","cdd","eee","uuu","yyy"];
+const slice=arr.slice(2);// eee,uuu,yyy
+console.log(slice);
+
+const slice2=arr.slice(2,4);//eee,uuu
+console.log(slice2);
+
+//splice
+let months=["jan","feb","apr","mar"];
+months.splice(1,0,"aug");
+console.log(months);
+months.splice(2,3,"dec");
+console.log(months);
+
+//for loop:
+let array4=["1","2","3","4","5"];
+for(let i=0;i<array4.length;i++)
+{
+const array5=array4[i]*2;
+console.log(array5);}
+
+//for each
+array4.forEach((soo)=>{
+    console.log(soo*2)
+
+});
+
+
+
+
+
+
+
+9
+
+
+ 
+
+
+
+
+
+
+
+
     
 
 

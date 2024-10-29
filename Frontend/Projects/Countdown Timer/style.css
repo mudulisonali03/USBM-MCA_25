@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color:red;
+  }
+  h1 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .field {
+    padding: 10px 15px;
+    outline: red;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+  }
+  button {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(44, 55, 161);
+    border: none;
+    color: red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  div {
+    color: red;
+   font-size: 32px;
+   text-align: center;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 50px;
+    background-color:rgb(204, 176, 50);
+  }
+  

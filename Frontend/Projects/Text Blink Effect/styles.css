@@ -1,0 +1,18 @@
+body{
+    background-color:red ;
+    color:greenyellow;
+ }
+ div{
+     width: 200px;
+     height: 200px;
+     margin: auto;
+     font-size: 64px;
+ }
+ h1{
+     text-align: center;
+ }
+ p{
+     text-align: center;
+     margin-top: 20px;
+     font-size: 20px;
+ }
