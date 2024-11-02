@@ -12,7 +12,7 @@ body {
 }
 
 .notification {
-    background-color: #102b11;
+    background-color: #0c5c0f;
     color:white;
     padding: 20px;
     border-radius: 5px;
@@ -28,7 +28,7 @@ body {
 }
 button{
     padding: 8px 19px;
-    background-color: rgb(31, 11, 28);
+    background-color: rgb(141, 16, 122);
     border: none;
     border-radius: 5px;
     transition: background 0.5s;
