@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-size: 16px;
+    font-family: "Sacramento", cursive;
+
+    font-weight: 400;
+    font-style: normal;
+  }
+  label{
+    font-size: 30px;
+    margin-top: 20px;
+
+  }
+  nav {
+    border-bottom: 3px solid;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5b7;
+  }
+  
+  nav li {
+    list-style: none;
+    font-size: 2rem;
+  }
+  
+  .signUpForm {
+    max-width: 500px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  
+  .signUpForm input {
+    max-width: 300px;
+    padding: 10px 0;
+    font-size: 13px;
+}
+  .signUpForm{
+background-color:#f5f5b7;
+  }
+  .signUpForm button {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: "Sacramento", cursive;
+
+}
+.signUpForm h2{
+  font-size: 35px;
+}
+  .loginForm {
+    max-width: 500px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  
+  .loginForm input {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .loginForm button {
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  #dashboard button {
+    width: 300px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2rem;
+  }
+  #dashboard button:hover {
+    cursor: pointer;
+  }
+  

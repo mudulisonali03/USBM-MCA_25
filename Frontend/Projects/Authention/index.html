@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <li>Home</li>
+      <li>About</li>
+      <li>Service</li>
+      <li>Login</li>
+    </nav>
+
+    <!-- signup form -->
+    <section id="signup">
+      <div class="signUpForm">
+        <h2>Sign Up Form</h2>
+        <label for="username">User Name:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          placeholder="User Name"
+        />
+        <label for="useremail">User Email:</label>
+        <input
+          type="email"
+          id="useremail"
+          name="useremail"
+          required
+          placeholder="User Email"
+        />
+        <label for="userppassword">User Password:</label>
+        <input
+          type="password"
+          id="userppassword"
+          name="userppassword"
+          required
+          placeholder="User Password"
+        />
+        <button id="signupBtn">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- login form -->
+    <section id="login" style="display: none">
+      <div class="loginForm">
+        <h2>Login Form</h2>
+        <label for="loginUsername">User Email:</label>
+        <input
+          type="text"
+          id="loginUsername"
+          name="loginUsername"
+          required
+          placeholder="User Name"
+        />
+        <label for="loginPassword">Password:</label>
+        <input
+          type="password"
+          id="loginPassword"
+          name="loginPassword"
+          required
+          placeholder="Password"
+        />
+        <button id="loginBtn">Login</button>
+      </div>
+    </section>
+
+    <!-- dashboard view -->
+    <!-- Dashboard section -->
+    <section id="dashboard" style="display: none">
+      <h2 id="usernameDisplay"></h2>
+      <button id="logoutBtn">Logout</button>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
