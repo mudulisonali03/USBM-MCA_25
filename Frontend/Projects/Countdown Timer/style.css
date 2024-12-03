@@ -1,43 +1,46 @@
-body {
-    background-color: black;
-    color:red;
-  }
-  h1 {
-    text-align: center;
-  }
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .field {
-    padding: 10px 15px;
-    outline: red;
-    font-size: medium;
-    border-radius: 10px;
-    border: none;
-  }
-  button {
-    margin-top: 20px;
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: rgb(44, 55, 161);
-    border: none;
-    color: red;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  div {
-    color: red;
-   font-size: 32px;
-   text-align: center;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    padding: 50px;
-    background-color:rgb(204, 176, 50);
-  }
-  
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-image: url('bg3.jpg');
+  background-size: cover;
+  background-position: center ;
+  color:hsl(37, 78%, 72%) ;
+
+}
+.timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 270px; 
+
+}
+button{
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: transparent;
+  color: hsl(37, 78%, 72%);
+}
+button:hover{
+  background-color: #b1720e;
+  color: white;
+  box-shadow: 0 0 5px hsl(37, 95%, 84%);
+
+}
+
+legend{
+  font-size: 30px;
+}
+#timer {
+  margin-top: 170px;
+  height: 200px;
+}
+.left , .right {
+  color: white;
+  background-color: #efc47e;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 3.5px  #da9b35 ;
+} 
